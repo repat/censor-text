@@ -1,0 +1,22 @@
+{
+    "name": "repat/censor-text",
+    "description": "Help search and replace specific texts, such as email address(es).",
+    "keywords": ["censor", "text", "email", "address", "addresses", "regex", "regular", "expression", "laravel"],
+    "homepage": "https://repat.de",
+    "license": "MIT",
+    "version" : "0.1",
+    "authors": [
+        {"name": "repat", "email": "repat@repat.de"}
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "Repat\\": "src/Repat"
+        }
+    }
+}
